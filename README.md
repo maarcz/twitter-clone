@@ -5,9 +5,9 @@ Install PHP libraries:
 composer install
 ```
 
-Run PHP server:
+Migrate DB tables:
 ```bash
-php artisan serve
+php artisan migrate
 ```
 
 Install JS libraries:
@@ -18,6 +18,11 @@ npm install
 Check for changes in JS files:
 ```bash
 npm run watch
+```
+
+Run PHP server:
+```bash
+php artisan serve
 ```
 
 Run websocket server:
